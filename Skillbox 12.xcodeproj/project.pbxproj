@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8879993A9758E1C979EF0B7E /* Pods_Skillbox_12.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626ED162A131DD254DC91968 /* Pods_Skillbox_12.framework */; };
+		AC5EC7722463DFA100CA9C6F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EC7712463DFA100CA9C6F /* Category.swift */; };
+		AC6FCAD22490C008007E6CC3 /* RealmWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6FCAD12490C008007E6CC3 /* RealmWork.swift */; };
+		AC6FCAD424989173007E6CC3 /* CategoryRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6FCAD324989173007E6CC3 /* CategoryRealm.swift */; };
+		ACB9EBDB246A78560079696D /* CategoryCellAlamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB9EBDA246A78560079696D /* CategoryCellAlamo.swift */; };
+		ACB9EBDF246A7A3C0079696D /* ViewController5daysAlamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB9EBDE246A7A3C0079696D /* ViewController5daysAlamo.swift */; };
+		ACB9EBE1246A7A9B0079696D /* WeatherLoaderAlamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB9EBE0246A7A9B0079696D /* WeatherLoaderAlamo.swift */; };
+		ACD3BFEC245FD73C00E65973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3BFEB245FD73C00E65973 /* AppDelegate.swift */; };
+		ACD3BFEE245FD73C00E65973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3BFED245FD73C00E65973 /* SceneDelegate.swift */; };
+		ACD3BFF3245FD73C00E65973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD3BFF1245FD73C00E65973 /* Main.storyboard */; };
+		ACD3BFF5245FD73D00E65973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3BFF4245FD73D00E65973 /* Assets.xcassets */; };
+		ACD3BFF8245FD73D00E65973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD3BFF6245FD73D00E65973 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CAF9B4B42CE0156E9630C82 /* Pods-Skillbox 12.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skillbox 12.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skillbox 12/Pods-Skillbox 12.release.xcconfig"; sourceTree = "<group>"; };
+		626ED162A131DD254DC91968 /* Pods_Skillbox_12.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skillbox_12.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C1CCB7D5721413FA82264F /* Pods-Skillbox 12.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skillbox 12.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skillbox 12/Pods-Skillbox 12.debug.xcconfig"; sourceTree = "<group>"; };
+		AC5EC7712463DFA100CA9C6F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AC6FCAD12490C008007E6CC3 /* RealmWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmWork.swift; sourceTree = "<group>"; };
+		AC6FCAD324989173007E6CC3 /* CategoryRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRealm.swift; sourceTree = "<group>"; };
+		ACB9EBDA246A78560079696D /* CategoryCellAlamo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellAlamo.swift; sourceTree = "<group>"; };
+		ACB9EBDE246A7A3C0079696D /* ViewController5daysAlamo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5daysAlamo.swift; sourceTree = "<group>"; };
+		ACB9EBE0246A7A9B0079696D /* WeatherLoaderAlamo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLoaderAlamo.swift; sourceTree = "<group>"; };
+		ACD3BFE8245FD73C00E65973 /* Skillbox 12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skillbox 12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD3BFEB245FD73C00E65973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACD3BFED245FD73C00E65973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACD3BFF2245FD73C00E65973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD3BFF4245FD73D00E65973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD3BFF7245FD73D00E65973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACD3BFF9245FD73D00E65973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD3BFE5245FD73C00E65973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8879993A9758E1C979EF0B7E /* Pods_Skillbox_12.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56769403D3F13D0F709C217E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82C1CCB7D5721413FA82264F /* Pods-Skillbox 12.debug.xcconfig */,
+				2CAF9B4B42CE0156E9630C82 /* Pods-Skillbox 12.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8EA1A8A0BF1392597D01FDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				626ED162A131DD254DC91968 /* Pods_Skillbox_12.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACD3BFDF245FD73C00E65973 = {
+			isa = PBXGroup;
+			children = (
+				ACD3BFEA245FD73C00E65973 /* Skillbox 12 */,
+				ACD3BFE9245FD73C00E65973 /* Products */,
+				56769403D3F13D0F709C217E /* Pods */,
+				A8EA1A8A0BF1392597D01FDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD3BFE9245FD73C00E65973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3BFE8245FD73C00E65973 /* Skillbox 12.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD3BFEA245FD73C00E65973 /* Skillbox 12 */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3BFEB245FD73C00E65973 /* AppDelegate.swift */,
+				ACD3BFED245FD73C00E65973 /* SceneDelegate.swift */,
+				AC5EC7712463DFA100CA9C6F /* Category.swift */,
+				ACB9EBDE246A7A3C0079696D /* ViewController5daysAlamo.swift */,
+				ACB9EBDA246A78560079696D /* CategoryCellAlamo.swift */,
+				ACB9EBE0246A7A9B0079696D /* WeatherLoaderAlamo.swift */,
+				AC6FCAD12490C008007E6CC3 /* RealmWork.swift */,
+				AC6FCAD324989173007E6CC3 /* CategoryRealm.swift */,
+				ACD3BFF1245FD73C00E65973 /* Main.storyboard */,
+				ACD3BFF4245FD73D00E65973 /* Assets.xcassets */,
+				ACD3BFF6245FD73D00E65973 /* LaunchScreen.storyboard */,
+				ACD3BFF9245FD73D00E65973 /* Info.plist */,
+			);
+			path = "Skillbox 12";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD3BFE7245FD73C00E65973 /* Skillbox 12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD3BFFC245FD73D00E65973 /* Build configuration list for PBXNativeTarget "Skillbox 12" */;
+			buildPhases = (
+				C630DC5C5FA571068C27A977 /* [CP] Check Pods Manifest.lock */,
+				ACD3BFE4245FD73C00E65973 /* Sources */,
+				ACD3BFE5245FD73C00E65973 /* Frameworks */,
+				ACD3BFE6245FD73C00E65973 /* Resources */,
+				51701916A8DA8982DC7185BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skillbox 12";
+			productName = "Skillbox 12";
+			productReference = ACD3BFE8245FD73C00E65973 /* Skillbox 12.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD3BFE0245FD73C00E65973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Artem A.";
+				TargetAttributes = {
+					ACD3BFE7245FD73C00E65973 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = ACD3BFE3245FD73C00E65973 /* Build configuration list for PBXProject "Skillbox 12" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD3BFDF245FD73C00E65973;
+			productRefGroup = ACD3BFE9245FD73C00E65973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD3BFE7245FD73C00E65973 /* Skillbox 12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD3BFE6245FD73C00E65973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3BFF8245FD73D00E65973 /* LaunchScreen.storyboard in Resources */,
+				ACD3BFF5245FD73D00E65973 /* Assets.xcassets in Resources */,
+				ACD3BFF3245FD73C00E65973 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51701916A8DA8982DC7185BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skillbox 12/Pods-Skillbox 12-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skillbox 12/Pods-Skillbox 12-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skillbox 12/Pods-Skillbox 12-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C630DC5C5FA571068C27A977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skillbox 12-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD3BFE4245FD73C00E65973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB9EBDB246A78560079696D /* CategoryCellAlamo.swift in Sources */,
+				ACB9EBE1246A7A9B0079696D /* WeatherLoaderAlamo.swift in Sources */,
+				AC5EC7722463DFA100CA9C6F /* Category.swift in Sources */,
+				ACB9EBDF246A7A3C0079696D /* ViewController5daysAlamo.swift in Sources */,
+				AC6FCAD22490C008007E6CC3 /* RealmWork.swift in Sources */,
+				AC6FCAD424989173007E6CC3 /* CategoryRealm.swift in Sources */,
+				ACD3BFEC245FD73C00E65973 /* AppDelegate.swift in Sources */,
+				ACD3BFEE245FD73C00E65973 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACD3BFF1245FD73C00E65973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD3BFF2245FD73C00E65973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACD3BFF6245FD73D00E65973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD3BFF7245FD73D00E65973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD3BFFA245FD73D00E65973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACD3BFFB245FD73D00E65973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD3BFFD245FD73D00E65973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C1CCB7D5721413FA82264F /* Pods-Skillbox 12.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Skillbox 12/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artem.Skillbox-12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACD3BFFE245FD73D00E65973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CAF9B4B42CE0156E9630C82 /* Pods-Skillbox 12.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Skillbox 12/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artem.Skillbox-12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD3BFE3245FD73C00E65973 /* Build configuration list for PBXProject "Skillbox 12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3BFFA245FD73D00E65973 /* Debug */,
+				ACD3BFFB245FD73D00E65973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD3BFFC245FD73D00E65973 /* Build configuration list for PBXNativeTarget "Skillbox 12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3BFFD245FD73D00E65973 /* Debug */,
+				ACD3BFFE245FD73D00E65973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD3BFE0245FD73C00E65973 /* Project object */;
+}
